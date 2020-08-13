@@ -64,16 +64,3 @@ while (cap.isOpened()):
 cap.release()
 out.release()
 cv2.destroyAllWindows()
-
-
-#colors code
-
-#skin color
-#lower_red = np.array([0, 0, 70])
-#upper_red = np.array([100, 255,255])
-# mask1 = cv2.inRange(hsv, lower_red, upper_red)
-
-# lower_red = np.array([170, 120, 70])
-#  upper_red = np.array([180, 255, 255])
-
-#-----------------------
